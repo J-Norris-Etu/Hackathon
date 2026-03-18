@@ -4,6 +4,7 @@ import numpy as np
 # Number of entreprises
 n = 20
 
+
 # Column structure
 columns = [
     "Entreprise",
