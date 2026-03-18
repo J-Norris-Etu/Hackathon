@@ -9,6 +9,7 @@ n = 20
 columns = [
     "Product",
     "Code",
+    "Quality",
     "ExpDate"
 ]
 
@@ -20,6 +21,9 @@ for i in range(n):
     
     # Random product code (e.g., 6-digit)
     code = np.random.randint(100000, 999999)
+
+    # Random quality (Correct, Tres Bon, Superieur)
+    quality = np.random.choice(["Correct", "Tres Bon", "Superieur"])
     
     # Random expiration date (between today and +365 days)
     days_to_add = np.random.randint(1, 366)
