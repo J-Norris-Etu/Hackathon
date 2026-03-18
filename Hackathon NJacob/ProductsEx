@@ -30,7 +30,7 @@ for i in range(n):
     exp_date = datetime.today() + timedelta(days=int(days_to_add))
     exp_date = exp_date.strftime("%Y-%m-%d")
     
-    row = [product_name, code, exp_date]
+    row = [product_name, code, quality, exp_date]
     data.append(row)
 
 # Create DataFrame
